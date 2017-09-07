@@ -1,2 +1,2 @@
 # ScrimBot
-a simple schedule bot for scrims
+a simple schedule scrim bot for discord
