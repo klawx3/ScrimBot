@@ -1,0 +1,32 @@
+{
+  "name": "scrim_bot",
+  "version": "1.0.0",
+  "description": "a simple schedule scrim bot for discord",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klawx3/ScrimBot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "node",
+    "schedule",
+    "scrim",
+    "team",
+    "match"
+  ],
+  "author": "klawx3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klawx3/ScrimBot/issues"
+  },
+  "homepage": "https://github.com/klawx3/ScrimBot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "sqlite3": "^3.1.11"
+  }
+}

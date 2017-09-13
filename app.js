@@ -6,8 +6,6 @@ const Data = require('./data');
 const data = new Data(db);
 
 
-//console.log(new Date().getTime());
-console.log(new Date(1504636164785));
 /*
 data.removeTeamMember(123123,321,'fg11111', (err,deleted) => {
   if(err){
