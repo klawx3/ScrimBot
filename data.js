@@ -130,7 +130,6 @@ var Data = class Data {
             }
           });
     }
-    // FIXME: falta probar la funcion
     scheduleScrim(userDiscordId,teamName,rivalTeam,contactName,millisTimeObjetive,callback){
         var _this = this;
         this.teamIdByName(teamName,(err,teamId) => {
@@ -140,7 +139,7 @@ var Data = class Data {
                 const millisTime = new Date().getTime();
                 const sql = `INSERT INTO scrim VALUES(NULL,${teamId},${millisTime},'${rivalTeam}','${contactName}')`;
                 _this.db.run(sql);
-                callback(null,true);
+                callback(null);
             });
         });
     }
